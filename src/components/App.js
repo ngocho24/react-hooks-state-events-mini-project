@@ -23,9 +23,7 @@ function App() {
   };
   
   
-  
-
-  const filteredTasks = selectedCategory === "All"
+    const filteredTasks = selectedCategory === "All"
     ? tasks
     : tasks.filter((task) => task.category === selectedCategory);
 
